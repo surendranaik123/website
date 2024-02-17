@@ -151,6 +151,7 @@ button:active,button:hover{
     }
 
     .ul{
+      padding-top: 13px;
        padding-left:3px;
         position:absolute ;
         width: 47%;
