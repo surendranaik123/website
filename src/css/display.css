@@ -285,7 +285,7 @@ margin-bottom:30px ;
     }
    
     .search-container {
-      margin-top: 99%;
+      /* margin-top: 99%; */
       display: flex;
       justify-content: center;
       align-items: center;

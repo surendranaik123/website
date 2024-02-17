@@ -14,12 +14,14 @@ export default function Register() {
   const [address, setAddress] = useState("");
   const navigate = useNavigate();
 
+  
   const handleSubmit = (e) => {
     e.preventDefault();
-
+  
     if (userType === "Admin" && secretKey !== "Admin") {
       alert("Invalid Admin");
-    } else if (!fname || !lname || !email || !password || !userType) {
+    } else if (!fname || !lname || !email || !password || !userType || (userType !== "Admin" && (!phoneno || !address))) {
+      // Check if any of the required fields are empty
       alert("Please fill in all required fields.");
     } else {
       console.log(fname, lname, phoneno, address, email, password, userType);
@@ -62,6 +64,7 @@ export default function Register() {
         });
     }
   };
+  
 
   return (
     <>

@@ -6,12 +6,12 @@ body * {
     font-family: 'Montserrat', sans-serif;
     text-align: left;
 }
-nav{
-    
+/* nav{
+    margin-bottom: 200px;
     background-color: lightgrey;
     height: 100px;
     width: 100%;
-}
+} */
 label.logo{
     color: blue;
     font-size: 25px;
@@ -155,7 +155,7 @@ button:active,button:hover{
         width: 50%;
         height: 60vh;
         background-color:lightcyan;
-        top: 195px;
+        top: 188px;
         left: -100%;
         text-align: center;
         transition: all .5s;

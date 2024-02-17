@@ -165,7 +165,7 @@ export default function ProductsData() {
   useEffect(() => {
     // Fetch product data from API
     axios
-      .get("https://ecom-tber.onrender.com/api/v1/productdata")
+      .get("http://localhost:9000/api/v1/productdata")
       .then((res) => {
         console.log("API Response:", res.data);
         // Shuffle the data randomly
@@ -180,7 +180,7 @@ export default function ProductsData() {
     // Only fetch user data if id is available
     if (id) {
       axios
-        .get(`https://ecom-tber.onrender.com/api/v1/users/single/${id}`)
+        .get(`http://localhost:9000/api/v1/users/single/${id}`)
         .then((res) => {
           setUser(res.data);
         })
