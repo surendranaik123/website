@@ -65,7 +65,7 @@ function Navbar() {
     <div>
        <nav
         style={{
-          marginBottom: addMargin ? "380px" : "0px",
+          marginBottom: addMargin ? "350px" : "0px",
           backgroundColor: "lightgray",
         }}
       >
