@@ -120,9 +120,7 @@ button:active,button:hover{
             padding: 10px; /* Set your custom padding here */
           }
 @media only screen and (max-width: 952px) {
-  nav{
-    height: 200px;
-  }
+ 
     label.logo{
         
         font-size: 25px;
